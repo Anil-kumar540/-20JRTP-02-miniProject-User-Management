@@ -1,0 +1,25 @@
+server:
+  port: 8084
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    password: sa
+    url: jdbc:h2:mem:testdb
+    username: sa
+  
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    defer-datasource-initialization: true
+    
+  mail:
+    host: smtp.gmail.com
+    password: rjgcqrrkpyvazvbj
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: javatrainingit123@gmail.com

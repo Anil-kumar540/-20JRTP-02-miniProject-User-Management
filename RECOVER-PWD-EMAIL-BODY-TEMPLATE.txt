@@ -1,0 +1,13 @@
+Hi {FNAME} {LNAME},
+<br/>
+<br/>
+
+Wecome to UMS, Please find your password below<br/>
+<br/>
+
+Password : {PWD}<br/>
+<br/>
+
+
+Thanks & Regards,<br/>
+Anil IT.<br/>
